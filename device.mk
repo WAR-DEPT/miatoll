@@ -27,7 +27,6 @@ PRODUCT_ENFORCE_PRODUCT_PARTITION_INTERFACE := true
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
-include vendor/gapps/arm64/arm64-vendor.mk
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
